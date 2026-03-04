@@ -37,8 +37,8 @@ public class CustomListTest {
         assertEquals(3, list.countCities());
         list.deleteCity(city1);
         assertEquals(2, list.countCities());
-        list.deleteCity(city1);
         list.deleteCity(city2);
+        list.deleteCity(city3);
         assertEquals(0, list.countCities());
     }
 }
